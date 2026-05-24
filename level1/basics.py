@@ -1,3 +1,6 @@
-credit_number="9876-8765-1234-1234"
 
-print("your credit card number is xxxx-xxxx-xxxx-"+credit_number[-4::])
+numpad=((1,2,3),(4,5,6),(7,8,9),('*',0,'#'))
+for i in numpad:
+    for j in i:
+        print(j, end=" ")
+    print()
