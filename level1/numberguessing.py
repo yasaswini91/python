@@ -17,7 +17,7 @@ while ongoing:
                 print("Too low. TRY AGAIN")
             else:
                 print("YAY! YOU GOT IT")
-                break
+                ongoing=False
         else:
             print("please enter a valid input in range {lowest_num} and {highest_num}")
     else:
